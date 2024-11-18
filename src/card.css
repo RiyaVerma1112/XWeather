@@ -1,0 +1,13 @@
+.card-div {
+    height: 125px;
+    width: 200px ;
+    background-color: aliceblue;
+    border-radius: 8px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.card-content {
+    display: grid;
+    place-items: center;
+    padding-top: 10%;
+}

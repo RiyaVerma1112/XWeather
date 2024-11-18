@@ -75,7 +75,7 @@ function Weather() {
             ) : (
                 resultForCity &&
                 data.current && (
-                    <div className="grid-container">
+                    <div className=".weather-cards">
                         <Card message="Temperature" result={data.current.temp_c} extra="°C" />
                         <Card message="Humidity" result={data.current.humidity} extra="%" />
                         <Card message="Condition" result={data.current.condition.text} extra="" />

@@ -23,7 +23,7 @@
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3);
 }
 
-.grid-container {
+.weather-cards {
     display: flex;
     margin-top: 20px;
     /* justify-items: center; */

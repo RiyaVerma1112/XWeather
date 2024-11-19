@@ -71,11 +71,11 @@ function Weather() {
                 </button>
             </div>
             {loading ? (
-                <p style={{ textAlign: "center" }}>Loading data…</p>
+                <p style={{ textAlign: "center" }}>Loading data...</p>
             ) : (
                 resultForCity &&
                 data.current && (
-                    <div className=".weather-cards">
+                    <div className="weather-cards">
                         <Card message="Temperature" result={data.current.temp_c} extra="°C" />
                         <Card message="Humidity" result={data.current.humidity} extra="%" />
                         <Card message="Condition" result={data.current.condition.text} extra="" />
